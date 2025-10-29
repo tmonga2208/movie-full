@@ -85,3 +85,33 @@ GET /
 ![Table Mode](public/img2.png)
 
 ![Add](public/img3.png)
+
+## Host Your Own
+
+If you want to host your own version of The MovieDB:
+
+- Clone this repository
+
+```bash
+https://github.com/tmonga2208/movie-full.git
+```
+
+- Go to the backend directory
+
+```bash
+cd movie-backend
+```
+
+- Set your own database
+ • Open .env and update:
+
+```bash
+DATABASE_URL="mysql://user:password@host:port/database"
+```
+
+- Deploy on Render
+ • Push your backend code to a GitHub repo
+ • Create a new Web Service on Render and connect it to that repo
+ • Add your DATABASE_URL in Render’s environment variables
+
+Optionally, you can also deploy the frontend to Vercel by importing the project and connecting it to your repository.
