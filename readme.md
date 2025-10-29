@@ -103,15 +103,15 @@ cd movie-backend
 ```
 
 - Set your own database
- • Open .env and update:
+- Open .env and update:
 
 ```bash
 DATABASE_URL="mysql://user:password@host:port/database"
 ```
 
 - Deploy on Render
- • Push your backend code to a GitHub repo
- • Create a new Web Service on Render and connect it to that repo
- • Add your DATABASE_URL in Render’s environment variables
+- Push your backend code to a GitHub repo
+- Create a new Web Service on Render and connect it to that repo
+- Add your DATABASE_URL in Render’s environment variables
 
 Optionally, you can also deploy the frontend to Vercel by importing the project and connecting it to your repository.
