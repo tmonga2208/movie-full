@@ -110,6 +110,7 @@ DATABASE_URL="mysql://user:password@host:port/database"
 ```
 
 - Deploy on Render
+- For DB Host a instance on Railway
 - Push your backend code to a GitHub repo
 - Create a new Web Service on Render and connect it to that repo
 - Add your DATABASE_URL in Render’s environment variables
